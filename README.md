@@ -1,5 +1,7 @@
 # ragbench
 
+[![ci](https://github.com/imharshita/ragbench/actions/workflows/ci.yml/badge.svg)](https://github.com/imharshita/ragbench/actions/workflows/ci.yml)
+
 **Citation-grounded RAG with a reproducible evaluation harness.**
 Most RAG demos answer questions. This one measures whether the answer is *grounded*:
 it must cite the retrieved passages that support it, and it must abstain when the
