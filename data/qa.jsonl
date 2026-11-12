@@ -1,0 +1,16 @@
+{"id": "q1", "question": "What does RAG combine?", "answers": ["a retrieval system with a language model"], "gold_docs": ["retrieval-augmented-generation"], "expected_behavior": "answer"}
+{"id": "q2", "question": "What should a grounded RAG system cite?", "answers": ["the passages it uses"], "gold_docs": ["retrieval-augmented-generation"], "expected_behavior": "answer"}
+{"id": "q3", "question": "When is RAG preferred over fine-tuning?", "answers": ["when the knowledge changes often"], "gold_docs": ["retrieval-augmented-generation"], "expected_behavior": "answer"}
+{"id": "q4", "question": "What does fixed-size chunking use?", "answers": ["a maximum character count and an overlap between neighbouring chunks"], "gold_docs": ["chunking"], "expected_behavior": "answer"}
+{"id": "q5", "question": "Why is overlap used in chunking?", "answers": ["to reduce the chance that an answer is split across two chunks"], "gold_docs": ["chunking"], "expected_behavior": "answer"}
+{"id": "q6", "question": "What is answer faithfulness?", "answers": ["whether every claim in the answer is supported by the retrieved context"], "gold_docs": ["evaluation"], "expected_behavior": "answer"}
+{"id": "q7", "question": "What is citation precision?", "answers": ["the fraction of cited passages that actually support the answer"], "gold_docs": ["evaluation"], "expected_behavior": "answer"}
+{"id": "q8", "question": "What is retrieval recall at k?", "answers": ["the fraction of questions whose gold passage appears in the top k results"], "gold_docs": ["evaluation"], "expected_behavior": "answer"}
+{"id": "q9", "question": "What do unanswerable questions test?", "answers": ["whether a system abstains instead of hallucinating"], "gold_docs": ["evaluation"], "expected_behavior": "answer"}
+{"id": "q10", "question": "What should a production RAG service log?", "answers": ["retrieved passages, model version, and latency per request"], "gold_docs": ["production"], "expected_behavior": "answer"}
+{"id": "q11", "question": "What does hybrid retrieval combine?", "answers": ["lexical BM25 with dense embeddings"], "gold_docs": ["production"], "expected_behavior": "answer"}
+{"id": "q12", "question": "How are hybrid ranked lists fused?", "answers": ["with reciprocal rank fusion"], "gold_docs": ["production"], "expected_behavior": "answer"}
+{"id": "q13", "question": "What must be invalidated when the corpus changes?", "answers": ["the cache"], "gold_docs": ["production"], "expected_behavior": "answer"}
+{"id": "q14", "question": "What is the capital of France?", "answers": [], "gold_docs": [], "expected_behavior": "abstain"}
+{"id": "q15", "question": "How many parameters does GPT-4 have?", "answers": [], "gold_docs": [], "expected_behavior": "abstain"}
+{"id": "q16", "question": "Which cloud provider hosts the corpus?", "answers": [], "gold_docs": [], "expected_behavior": "abstain"}

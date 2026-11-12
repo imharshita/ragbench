@@ -1,0 +1,88 @@
+{
+  "rows": [
+    {
+      "strategy": "fixed",
+      "k": 3,
+      "recall_at_k": 1.0,
+      "mrr_at_k": 1.0,
+      "citation_precision": 0.7692,
+      "citation_recall": 1.0,
+      "answer_f1": 0.3681,
+      "abstention_accuracy": 1.0,
+      "grounded_score": 0.8562,
+      "answered": 13,
+      "total": 16,
+      "config": "overlap=80, size=400"
+    },
+    {
+      "strategy": "fixed",
+      "k": 5,
+      "recall_at_k": 1.0,
+      "mrr_at_k": 1.0,
+      "citation_precision": 0.7692,
+      "citation_recall": 1.0,
+      "answer_f1": 0.3681,
+      "abstention_accuracy": 1.0,
+      "grounded_score": 0.8562,
+      "answered": 13,
+      "total": 16,
+      "config": "overlap=80, size=400"
+    },
+    {
+      "strategy": "fixed",
+      "k": 3,
+      "recall_at_k": 1.0,
+      "mrr_at_k": 1.0,
+      "citation_precision": 0.8077,
+      "citation_recall": 1.0,
+      "answer_f1": 0.3668,
+      "abstention_accuracy": 1.0,
+      "grounded_score": 0.8624,
+      "answered": 13,
+      "total": 16,
+      "config": "overlap=60, size=250"
+    },
+    {
+      "strategy": "fixed",
+      "k": 5,
+      "recall_at_k": 1.0,
+      "mrr_at_k": 1.0,
+      "citation_precision": 0.8077,
+      "citation_recall": 1.0,
+      "answer_f1": 0.3668,
+      "abstention_accuracy": 1.0,
+      "grounded_score": 0.8624,
+      "answered": 13,
+      "total": 16,
+      "config": "overlap=60, size=250"
+    },
+    {
+      "strategy": "paragraph",
+      "k": 3,
+      "recall_at_k": 1.0,
+      "mrr_at_k": 1.0,
+      "citation_precision": 0.7821,
+      "citation_recall": 1.0,
+      "answer_f1": 0.3643,
+      "abstention_accuracy": 1.0,
+      "grounded_score": 0.8577,
+      "answered": 13,
+      "total": 16,
+      "config": "max_chars=600"
+    },
+    {
+      "strategy": "paragraph",
+      "k": 5,
+      "recall_at_k": 1.0,
+      "mrr_at_k": 1.0,
+      "citation_precision": 0.7821,
+      "citation_recall": 1.0,
+      "answer_f1": 0.3643,
+      "abstention_accuracy": 1.0,
+      "grounded_score": 0.8577,
+      "answered": 13,
+      "total": 16,
+      "config": "max_chars=600"
+    }
+  ]
+}
